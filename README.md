@@ -1,8 +1,8 @@
-# RoutellM — Token-Efficient Routing Agent
+# WiseRouter — Token-Efficient Routing Agent
 
 **AMD Developer Hackathon: ACT II - Track 1: Hybrid Token-Efficient Routing Agent**
 
-RoutellM is a containerized Track 1 agent that reads tasks from `/input/tasks.json`, writes one `{task_id, answer}` object per task to `/output/results.json`, and keeps Fireworks usage as low as possible without sacrificing accuracy. It does this by solving easy tasks locally first and only calling Fireworks when the task is outside the deterministic safety envelope.
+WiseRouter is a containerized Track 1 agent that reads tasks from `/input/tasks.json`, writes one `{task_id, answer}` object per task to `/output/results.json`, and keeps Fireworks usage as low as possible without sacrificing accuracy. It does this by solving easy tasks locally first and only calling Fireworks when the task is outside the deterministic safety envelope.
 
 ## Runtime Contract
 
@@ -81,12 +81,12 @@ The deterministic layer is intentionally conservative. If a solver is not confid
 
 ## Web Interface
 
-RoutellM ships with a Streamlit dashboard that connects to a FastAPI backend:
+WiseRouter ships with a Streamlit dashboard that connects to a FastAPI backend:
 
 - **Dashboard** — accuracy, token cost, routing distribution charts
 - **Batch Evaluate** — upload JSON tasks, run evaluation with adjustable threshold
 - **Live Demo** — single-prompt routing with step-by-step flow visualization
-- **Cost Compare** — compare RoutellM cost vs always-using an expensive baseline model
+- **Cost Compare** — compare WiseRouter cost vs always-using an expensive baseline model
 
 ```bash
 # Start both backend and frontend locally
@@ -141,7 +141,7 @@ python -m app.main --input tests/fixtures/tasks_track1_sample.json --output /tmp
 Build the image:
 
 ```bash
-docker build -t routellm .
+docker build -t WiseRouter .
 ```
 
 Run it with mounted input/output folders:
@@ -153,7 +153,7 @@ docker run --rm \
   -e ALLOWED_MODELS="$ALLOWED_MODELS" \
   -v "$(pwd)/input:/input" \
   -v "$(pwd)/output:/output" \
-  routellm
+  WiseRouter
 ```
 
 Docker Compose (includes Web UI):
@@ -172,7 +172,7 @@ docker run --rm `
   -e ALLOWED_MODELS=$env:ALLOWED_MODELS `
   -v "${PWD}/input:/input" `
   -v "${PWD}/output:/output" `
-  routellm
+  WiseRouter
 ```
 
 ## Allowed Models
