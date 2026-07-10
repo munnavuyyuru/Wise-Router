@@ -1,0 +1,2242 @@
+[
+  {
+    "prompt": "Summarize: '2'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Charlie is taller than Diana. Eve is taller than Bob. Who is tallest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "What is 25 + 38?",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Charlie is before Eve. Alice is after Diana. What is the order?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "If Bob > Diana and Alice > Charlie, which is greatest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "If 7 items cost $35, how much do 14 cost?",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Extract names from: 'Alice and Bob work at Google in Mountain View'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Summarize: '2'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Implement validate an email address in Python.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "What is 73 / 92?",
+    "task_type": "math"
+  },
+  {
+    "prompt": "If Eve > Alice and Bob > Charlie, which is greatest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Alice is before Eve. Bob is after Charlie. What is the order?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "If Eve > Alice and Bob > Diana, which is greatest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Create a sort a list of numbers algorithm.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "What is Japan?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "If Diana > Alice and Eve > Bob, which is greatest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Fix the bug in:\ncalculate",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Create a check if a number is prime algorithm.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "What is the sentiment of: 'The best purchase I've made all year, highly recommend'?",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "If Alice > Bob and Eve > Charlie, which is greatest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Who invented United Kingdom?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Write a function to calculate fibonacci.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Extract names from: 'Contact support@company.com or call 555-123-4567'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Calculate 29 - 18.",
+    "task_type": "math"
+  },
+  {
+    "prompt": "How does this feel: 'The product was broken and the staff was rude'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Diana is taller than Charlie. Alice is taller than Bob. Who is tallest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Extract entities: 'Meeting on January 15, 2024 at $500 per person'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Extract entities: 'Alice and Bob work at Google in Mountain View'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Write code for find the maximum element.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "What is 52 + 8?",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Solve x + 83 = 134.",
+    "task_type": "math"
+  },
+  {
+    "prompt": "How does this feel: 'I loved it! Beautiful design and fantastic quality'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "What is the capital of light bulb?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "What is 52 + 16?",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Sentiment analysis: 'Awful, wouldn't recommend to anyone'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Average of 82, 15, 97.",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Write code for check if a number is prime.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Fix this code:\ndef parse_input():\n    pass\n",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Debug this:\nparse_input",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Summarize: '2'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Classify the sentiment: 'The package was delivered on Tuesday'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Summarize: '3'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Find all emails in: 'Meeting on January 15, 2024 at $500 per person'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "If Charlie > Alice and Diana > Bob, which is greatest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Fix this code:\ndef validate():\n    pass\n",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Identify the named entities: 'Alice and Bob work at Google in Mountain View'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "NER from text: 'Meeting on January 15, 2024 at $500 per person'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "What is United Kingdom?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "What is 28 + 30?",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Is this positive or negative: 'The meeting is scheduled for 3 PM tomorrow'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "What is the sentiment of: 'Great service, friendly staff, wonderful experience overall'?",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Extract names from: 'Alice and Bob work at Google in Mountain View'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Give a brief summary of: '3'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Diana is before Eve. Bob is after Alice. What is the order?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Fix the bug in:\ntransform",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "What is the capital of gold?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Eve is before Charlie. Bob is after Diana. What is the order?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Fix the bug in:\nparse_input",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Fix the bug in:\nparse_input",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Solve x + 27 = 61.",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Who invented France?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Extract names from: 'John Smith (john@example.com) from New York'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Fix the bug in:\nprocess_data",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "NER from text: 'Meeting on January 15, 2024 at $500 per person'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Write code for reverse a string.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Summarize: '3'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "What's wrong with:\nparse_input",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Average of 24, 9, 33.",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Classify the sentiment: 'Terrible experience, worst customer service ever'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "What is the capital of light bulb?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Diana is before Eve. Bob is after Alice. What is the order?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Summarize in 1 sentences: 'The capital of France is Paris, known for its art and culture. Python is a high-level programming language. Renewable energy sources like solar and wind are growing rapidly.'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Fix the bug in:\ncalculate",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Extract entities: 'John Smith (john@example.com) from New York'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Fix the bug in:\ncalculate",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "What is the capital of light bulb?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Fix the bug in:\nparse_input",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Extract entities: 'Alice and Bob work at Google in Mountain View'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Write code for reverse a string.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Summarize: '1'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Is this positive or negative: 'Please find attached the document you requested'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "NER from text: 'Contact support@company.com or call 555-123-4567'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Identify the named entities: 'Meeting on January 15, 2024 at $500 per person'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "NER from text: 'John Smith (john@example.com) from New York'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Classify the sentiment: 'The package was delivered on Tuesday'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Create a check if a number is prime algorithm.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Sentiment analysis: 'Terrible experience, worst customer service ever'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Is this positive or negative: 'Great service, friendly staff, wonderful experience overall'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Fix this code:\ndef parse_input():\n    pass\n",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "How does this feel: 'Terrible experience, worst customer service ever'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Summarize in 1 sentences: 'Python is a high-level programming language. The quick brown fox jumps over the lazy dog. Renewable energy sources like solar and wind are growing rapidly.'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "What's wrong with:\ncalculate",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Create a sort a list of numbers algorithm.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Fix this code:\ndef transform():\n    pass\n",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "What is 20 + 48?",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Eve is taller than Bob. Diana is taller than Charlie. Who is tallest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Extract names from: 'Contact support@company.com or call 555-123-4567'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Fix the bug in:\ntransform",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Alice is taller than Eve. Diana is taller than Bob. Who is tallest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Identify the named entities: 'Contact support@company.com or call 555-123-4567'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Give a brief summary of: '1'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Summarize in 3 sentences: 'Renewable energy sources like solar and wind are growing rapidly. Python is a high-level programming language. Machine learning is transforming many industries.'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Summarize in 3 sentences: 'The quick brown fox jumps over the lazy dog. Machine learning is transforming many industries. The capital of France is Paris, known for its art and culture.'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "What is Japan?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Extract entities: 'Alice and Bob work at Google in Mountain View'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "What is the capital of light bulb?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Find all emails in: 'Contact support@company.com or call 555-123-4567'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "If Diana > Bob and Alice > Eve, which is greatest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Average of 37, 78, 115.",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Bob is before Charlie. Alice is after Diana. What is the order?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "If 7 items cost $63, how much do 14 cost?",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Summarize in 2 sentences: 'Machine learning is transforming many industries. The capital of France is Paris, known for its art and culture. Renewable energy sources like solar and wind are growing rapidly.'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "NER from text: 'Contact support@company.com or call 555-123-4567'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Implement validate an email address in Python.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Implement reverse a string in Python.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Summarize: '3'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "What's wrong with:\ntransform",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Extract entities: 'Meeting on January 15, 2024 at $500 per person'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Solve x + 2 = 73.",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Eve is taller than Bob. Alice is taller than Diana. Who is tallest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Alice is before Eve. Charlie is after Diana. What is the order?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Create a validate an email address algorithm.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "What is 14 x 12?",
+    "task_type": "math"
+  },
+  {
+    "prompt": "What's wrong with:\nvalidate",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Write code for reverse a string.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Is this positive or negative: 'Terrible experience, worst customer service ever'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Classify the sentiment: 'The meeting is scheduled for 3 PM tomorrow'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Write a function to calculate fibonacci.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Implement find the maximum element in Python.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "If 10 items cost $170, how much do 20 cost?",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Who invented Japan?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Who invented gold?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Summarize in 2 sentences: 'The capital of France is Paris, known for its art and culture. Renewable energy sources like solar and wind are growing rapidly. The quick brown fox jumps over the lazy dog.'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Identify the named entities: 'Meeting on January 15, 2024 at $500 per person'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Is this positive or negative: 'The product was broken and the staff was rude'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Fix the bug in:\nprocess_data",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "What is the capital of France?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Alice is before Charlie. Bob is after Diana. What is the order?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "What is 45 / 78?",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Implement sort a list of numbers in Python.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Summarize in 3 sentences: 'Renewable energy sources like solar and wind are growing rapidly. The capital of France is Paris, known for its art and culture. Python is a high-level programming language.'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Write code for validate an email address.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "If Bob > Alice and Diana > Eve, which is greatest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "What is 70 / 17?",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Is this positive or negative: 'The product was broken and the staff was rude'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Write a function to validate an email address.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Eve is before Charlie. Diana is after Alice. What is the order?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "What's wrong with:\ntransform",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Write a function to calculate fibonacci.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "NER from text: 'Meeting on January 15, 2024 at $500 per person'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "What is 44 x 36?",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Summarize in 3 sentences: 'The capital of France is Paris, known for its art and culture. Renewable energy sources like solar and wind are growing rapidly. Python is a high-level programming language.'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Find all emails in: 'Contact support@company.com or call 555-123-4567'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Classify the sentiment: 'Excellent customer support, very helpful and efficient'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Identify the named entities: 'John Smith (john@example.com) from New York'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Charlie is before Alice. Eve is after Bob. What is the order?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Classify the sentiment: 'The system will be down for maintenance from 2-4 AM'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Average of 72, 26, 98.",
+    "task_type": "math"
+  },
+  {
+    "prompt": "What is the capital of Python?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Create a validate an email address algorithm.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Fix this code:\ndef parse_input():\n    pass\n",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Who invented water?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Implement reverse a string in Python.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Find all emails in: 'Alice and Bob work at Google in Mountain View'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Debug this:\nvalidate",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "What is the capital of light bulb?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Who invented gold?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Sentiment analysis: 'I loved it! Beautiful design and fantastic quality'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Create a reverse a string algorithm.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Fix the bug in:\nvalidate",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Find all emails in: 'John Smith (john@example.com) from New York'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Extract entities: 'John Smith (john@example.com) from New York'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Debug this:\nparse_input",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "How does this feel: 'Horrible. Slow, expensive, and poorly made'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Fix the bug in:\ncalculate",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Classify the sentiment: 'The meeting is scheduled for 3 PM tomorrow'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "If Charlie > Bob and Eve > Diana, which is greatest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "What is the capital of France?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "How does this feel: 'The product was broken and the staff was rude'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Sentiment analysis: 'Terrible experience, worst customer service ever'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Identify the named entities: 'Meeting on January 15, 2024 at $500 per person'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Who invented United Kingdom?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Debug this:\ncalculate",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "What is 98 / 69?",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Solve x + 16 = 85.",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Write a function to find the maximum element.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Average of 81, 80, 161.",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Give a brief summary of: '1'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "What is Python?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "How does this feel: 'The system will be down for maintenance from 2-4 AM'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Give a brief summary of: '3'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "If 9 items cost $153, how much do 18 cost?",
+    "task_type": "math"
+  },
+  {
+    "prompt": "If 5 items cost $95, how much do 10 cost?",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Implement calculate fibonacci in Python.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Who invented Germany?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "What is France?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Charlie is taller than Eve. Alice is taller than Bob. Who is tallest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Bob is taller than Eve. Charlie is taller than Diana. Who is tallest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Calculate 20 - 81.",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Calculate 77 - 42.",
+    "task_type": "math"
+  },
+  {
+    "prompt": "If Eve > Diana and Charlie > Bob, which is greatest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "What is light bulb?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Give a brief summary of: '2'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Fix the bug in:\nparse_input",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Extract names from: 'Contact support@company.com or call 555-123-4567'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Give a brief summary of: '1'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "What is Python?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Summarize in 2 sentences: 'The quick brown fox jumps over the lazy dog. Renewable energy sources like solar and wind are growing rapidly. Python is a high-level programming language.'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Implement check if a number is prime in Python.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Classify the sentiment: 'The product was absolutely amazing and exceeded all expectations'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Average of 41, 52, 93.",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Write a function to validate an email address.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Fix the bug in:\ncalculate",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Sentiment analysis: 'The system will be down for maintenance from 2-4 AM'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Create a check if a number is prime algorithm.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "What's wrong with:\ntransform",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Summarize: '2'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Find all emails in: 'John Smith (john@example.com) from New York'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Charlie is taller than Eve. Diana is taller than Alice. Who is tallest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Solve x + 9 = 100.",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Implement calculate fibonacci in Python.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "What is the sentiment of: 'The package was delivered on Tuesday'?",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "What is the capital of water?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "NER from text: 'Alice and Bob work at Google in Mountain View'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Diana is before Eve. Charlie is after Alice. What is the order?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Solve x + 96 = 110.",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Write a function to reverse a string.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Diana is before Eve. Charlie is after Alice. What is the order?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "What is the sentiment of: 'Excellent customer support, very helpful and efficient'?",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Solve x + 83 = 182.",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Write a function to validate an email address.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Calculate 76 - 55.",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Is this positive or negative: 'Awful, wouldn't recommend to anyone'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "If Eve > Diana and Alice > Charlie, which is greatest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Charlie is taller than Alice. Bob is taller than Diana. Who is tallest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Who invented Germany?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Summarize in 2 sentences: 'Renewable energy sources like solar and wind are growing rapidly. Machine learning is transforming many industries. The quick brown fox jumps over the lazy dog.'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Implement reverse a string in Python.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "If Eve > Bob and Diana > Charlie, which is greatest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Summarize: '1'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Write code for reverse a string.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "What is light bulb?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Implement check if a number is prime in Python.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Solve x + 30 = 41.",
+    "task_type": "math"
+  },
+  {
+    "prompt": "What is the sentiment of: 'The meeting is scheduled for 3 PM tomorrow'?",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Debug this:\nparse_input",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Calculate 65 - 68.",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Calculate 97 - 10.",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Give a brief summary of: '2'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "What is the sentiment of: 'Terrible experience, worst customer service ever'?",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "How does this feel: 'The product was absolutely amazing and exceeded all expectations'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Summarize: '1'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Write code for validate an email address.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Summarize in 2 sentences: 'Machine learning is transforming many industries. The capital of France is Paris, known for its art and culture. Renewable energy sources like solar and wind are growing rapidly.'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "What is 49% of 266?",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Give a brief summary of: '1'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Fix the bug in:\ncalculate",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "What is the capital of Python?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Extract names from: 'Alice and Bob work at Google in Mountain View'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Charlie is before Bob. Diana is after Alice. What is the order?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Extract entities: 'Alice and Bob work at Google in Mountain View'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Sentiment analysis: 'The system will be down for maintenance from 2-4 AM'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Summarize in 1 sentences: 'The quick brown fox jumps over the lazy dog. Machine learning is transforming many industries. Python is a high-level programming language.'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Who invented France?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Who invented France?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Charlie is before Diana. Eve is after Alice. What is the order?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Write a function to validate an email address.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "If Bob > Charlie and Alice > Eve, which is greatest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Give a brief summary of: '3'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Solve x + 49 = 99.",
+    "task_type": "math"
+  },
+  {
+    "prompt": "What is 71 + 13?",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Is this positive or negative: 'Here is the quarterly report for review'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "How does this feel: 'The product was broken and the staff was rude'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Identify the named entities: 'Contact support@company.com or call 555-123-4567'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Is this positive or negative: 'Please find attached the document you requested'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Extract names from: 'Alice and Bob work at Google in Mountain View'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Alice is taller than Charlie. Bob is taller than Eve. Who is tallest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Is this positive or negative: 'Please find attached the document you requested'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Give a brief summary of: '2'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "What is 96 / 41?",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Write code for validate an email address.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Eve is taller than Diana. Bob is taller than Charlie. Who is tallest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Find all emails in: 'Meeting on January 15, 2024 at $500 per person'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Who invented Japan?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "NER from text: 'John Smith (john@example.com) from New York'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "What is the capital of gold?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Alice is taller than Charlie. Diana is taller than Bob. Who is tallest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Diana is before Charlie. Bob is after Alice. What is the order?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "What's wrong with:\nparse_input",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "What is the sentiment of: 'The product was broken and the staff was rude'?",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Create a sort a list of numbers algorithm.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Summarize: '1'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Write a function to reverse a string.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Implement reverse a string in Python.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "If Charlie > Bob and Alice > Eve, which is greatest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Average of 81, 39, 120.",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Find all emails in: 'Meeting on January 15, 2024 at $500 per person'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Create a sort a list of numbers algorithm.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "What's wrong with:\nvalidate",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Charlie is before Eve. Bob is after Diana. What is the order?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "What is the sentiment of: 'Awful, wouldn't recommend to anyone'?",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Create a validate an email address algorithm.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Debug this:\nvalidate",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Extract entities: 'John Smith (john@example.com) from New York'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "What is Japan?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Write code for find the maximum element.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Eve is before Alice. Bob is after Charlie. What is the order?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Write a function to check if a number is prime.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "What is the capital of United Kingdom?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Sentiment analysis: 'Here is the quarterly report for review'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "What is the sentiment of: 'The meeting is scheduled for 3 PM tomorrow'?",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Give a brief summary of: '1'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Calculate 66 - 64.",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Calculate 30 - 9.",
+    "task_type": "math"
+  },
+  {
+    "prompt": "What is 39% of 423?",
+    "task_type": "math"
+  },
+  {
+    "prompt": "What is the capital of water?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Summarize: '3'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Fix the bug in:\ntransform",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Bob is before Charlie. Alice is after Diana. What is the order?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "What is the sentiment of: 'The system will be down for maintenance from 2-4 AM'?",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Summarize: '2'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Give a brief summary of: '1'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Summarize: '3'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Is this positive or negative: 'The best purchase I've made all year, highly recommend'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Bob is before Alice. Eve is after Diana. What is the order?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "What is 32% of 143?",
+    "task_type": "math"
+  },
+  {
+    "prompt": "What is the capital of Germany?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "What is the capital of Japan?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Summarize: '1'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Give a brief summary of: '2'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Find all emails in: 'Meeting on January 15, 2024 at $500 per person'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Bob is taller than Eve. Diana is taller than Charlie. Who is tallest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Alice is before Eve. Diana is after Charlie. What is the order?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Give a brief summary of: '3'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Sentiment analysis: 'The package was delivered on Tuesday'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Sentiment analysis: 'The product was absolutely amazing and exceeded all expectations'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "What is United Kingdom?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "What's wrong with:\nvalidate",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "What is United Kingdom?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "What is water?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "How does this feel: 'Terrible experience, worst customer service ever'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Debug this:\ncalculate",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Is this positive or negative: 'Here is the quarterly report for review'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Who invented Japan?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Debug this:\ncalculate",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Bob is taller than Diana. Charlie is taller than Alice. Who is tallest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Diana is before Charlie. Bob is after Eve. What is the order?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "What is 17 x 45?",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Solve x + 21 = 77.",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Create a reverse a string algorithm.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Implement find the maximum element in Python.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "NER from text: 'Contact support@company.com or call 555-123-4567'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Classify the sentiment: 'Horrible. Slow, expensive, and poorly made'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Who invented gold?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Diana is before Charlie. Alice is after Bob. What is the order?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Extract names from: 'Meeting on January 15, 2024 at $500 per person'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Solve x + 84 = 163.",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Fix the bug in:\ntransform",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Write code for validate an email address.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Give a brief summary of: '3'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Write code for sort a list of numbers.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Eve is taller than Alice. Bob is taller than Charlie. Who is tallest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "NER from text: 'Meeting on January 15, 2024 at $500 per person'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "What is France?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Debug this:\nparse_input",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "What is France?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Identify the named entities: 'Contact support@company.com or call 555-123-4567'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Summarize: '1'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "What's wrong with:\nparse_input",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Write code for reverse a string.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Create a reverse a string algorithm.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Write code for calculate fibonacci.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Find all emails in: 'Meeting on January 15, 2024 at $500 per person'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "What is the capital of gold?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "If Charlie > Bob and Diana > Alice, which is greatest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Fix this code:\ndef transform():\n    pass\n",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "If Charlie > Bob and Eve > Alice, which is greatest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Identify the named entities: 'Contact support@company.com or call 555-123-4567'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "If Alice > Bob and Charlie > Diana, which is greatest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Calculate 85 - 14.",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Summarize in 1 sentences: 'Renewable energy sources like solar and wind are growing rapidly. Python is a high-level programming language. The capital of France is Paris, known for its art and culture.'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Write a function to check if a number is prime.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Fix this code:\ndef parse_input():\n    pass\n",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "What is the capital of light bulb?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Summarize in 1 sentences: 'Renewable energy sources like solar and wind are growing rapidly. Machine learning is transforming many industries. The capital of France is Paris, known for its art and culture.'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "What is Germany?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "If Charlie > Bob and Eve > Alice, which is greatest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Write a function to reverse a string.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "How does this feel: 'Great service, friendly staff, wonderful experience overall'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Sentiment analysis: 'Great service, friendly staff, wonderful experience overall'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Extract entities: 'John Smith (john@example.com) from New York'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Find all emails in: 'Meeting on January 15, 2024 at $500 per person'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Is this positive or negative: 'The package was delivered on Tuesday'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Implement sort a list of numbers in Python.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Alice is taller than Diana. Eve is taller than Bob. Who is tallest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Classify the sentiment: 'Excellent customer support, very helpful and efficient'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Eve is taller than Alice. Charlie is taller than Bob. Who is tallest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Extract names from: 'Meeting on January 15, 2024 at $500 per person'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Identify the named entities: 'Meeting on January 15, 2024 at $500 per person'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Find all emails in: 'Meeting on January 15, 2024 at $500 per person'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "What is the capital of Germany?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Debug this:\nprocess_data",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Fix the bug in:\nparse_input",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Implement validate an email address in Python.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Give a brief summary of: '2'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Average of 47, 40, 87.",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Identify the named entities: 'Contact support@company.com or call 555-123-4567'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "What's wrong with:\ncalculate",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Give a brief summary of: '3'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Fix this code:\ndef calculate():\n    pass\n",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Give a brief summary of: '2'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "What is the capital of water?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Who invented France?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Who invented France?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Is this positive or negative: 'The system will be down for maintenance from 2-4 AM'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Implement sort a list of numbers in Python.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "What is the capital of Python?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "What is 88 / 82?",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Solve x + 69 = 79.",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Classify the sentiment: 'The best purchase I've made all year, highly recommend'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Write code for check if a number is prime.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Identify the named entities: 'Meeting on January 15, 2024 at $500 per person'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Fix the bug in:\ncalculate",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Give a brief summary of: '2'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Classify the sentiment: 'Here is the quarterly report for review'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "What is the capital of Japan?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "What is Germany?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Is this positive or negative: 'Great service, friendly staff, wonderful experience overall'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "NER from text: 'Contact support@company.com or call 555-123-4567'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Is this positive or negative: 'Horrible. Slow, expensive, and poorly made'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "What is 51 x 17?",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Summarize: '1'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Fix this code:\ndef parse_input():\n    pass\n",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Write a function to check if a number is prime.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Create a find the maximum element algorithm.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Classify the sentiment: 'Here is the quarterly report for review'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Who invented gold?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "What is 59 x 82?",
+    "task_type": "math"
+  },
+  {
+    "prompt": "What is 80 x 11?",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Who invented Python?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Debug this:\nparse_input",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Summarize in 2 sentences: 'Python is a high-level programming language. The capital of France is Paris, known for its art and culture. The quick brown fox jumps over the lazy dog.'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Debug this:\ntransform",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Fix this code:\ndef parse_input():\n    pass\n",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "If Charlie > Diana and Eve > Bob, which is greatest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Create a check if a number is prime algorithm.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "What is the sentiment of: 'The best purchase I've made all year, highly recommend'?",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Summarize: '1'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Average of 9, 44, 53.",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Extract entities: 'Alice and Bob work at Google in Mountain View'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "What is the capital of gold?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Fix this code:\ndef parse_input():\n    pass\n",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Fix the bug in:\ncalculate",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Implement check if a number is prime in Python.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Alice is before Bob. Charlie is after Diana. What is the order?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "What is the sentiment of: 'Awful, wouldn't recommend to anyone'?",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Give a brief summary of: '3'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "What is 82 x 89?",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Give a brief summary of: '2'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Debug this:\nparse_input",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Fix the bug in:\nprocess_data",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Fix the bug in:\ntransform",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Give a brief summary of: '3'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Identify the named entities: 'Alice and Bob work at Google in Mountain View'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "What is the sentiment of: 'The best purchase I've made all year, highly recommend'?",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Calculate 73 - 11.",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Who invented France?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "What is 99 + 100?",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Create a check if a number is prime algorithm.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "NER from text: 'John Smith (john@example.com) from New York'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Alice is before Diana. Bob is after Eve. What is the order?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Summarize: '1'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Who invented Python?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "What is the sentiment of: 'The product was absolutely amazing and exceeded all expectations'?",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Solve x + 21 = 53.",
+    "task_type": "math"
+  },
+  {
+    "prompt": "What is the sentiment of: 'Awful, wouldn't recommend to anyone'?",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "What is the capital of water?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "NER from text: 'John Smith (john@example.com) from New York'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Extract names from: 'Alice and Bob work at Google in Mountain View'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Implement check if a number is prime in Python.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Who invented water?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Fix the bug in:\nvalidate",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Give a brief summary of: '2'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Summarize: '1'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Average of 67, 58, 125.",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Calculate 65 - 98.",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Bob is taller than Charlie. Eve is taller than Diana. Who is tallest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Extract names from: 'Meeting on January 15, 2024 at $500 per person'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Give a brief summary of: '3'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Debug this:\nvalidate",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Write a function to check if a number is prime.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Summarize: '1'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "What's wrong with:\nvalidate",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Charlie is taller than Eve. Alice is taller than Bob. Who is tallest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Charlie is taller than Eve. Bob is taller than Alice. Who is tallest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Identify the named entities: 'Contact support@company.com or call 555-123-4567'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Solve x + 32 = 50.",
+    "task_type": "math"
+  },
+  {
+    "prompt": "What is the capital of gold?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Who invented Germany?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Create a find the maximum element algorithm.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Find all emails in: 'John Smith (john@example.com) from New York'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "What is the sentiment of: 'I loved it! Beautiful design and fantastic quality'?",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Implement sort a list of numbers in Python.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Identify the named entities: 'John Smith (john@example.com) from New York'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Summarize in 1 sentences: 'The capital of France is Paris, known for its art and culture. Renewable energy sources like solar and wind are growing rapidly. Python is a high-level programming language.'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Write a function to sort a list of numbers.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Fix this code:\ndef process_data():\n    pass\n",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Fix this code:\ndef calculate():\n    pass\n",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Summarize in 3 sentences: 'The capital of France is Paris, known for its art and culture. The quick brown fox jumps over the lazy dog. Machine learning is transforming many industries.'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Debug this:\nprocess_data",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "What is 76 + 29?",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Sentiment analysis: 'Here is the quarterly report for review'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Summarize: '3'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "What is the capital of water?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Debug this:\ncalculate",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "If Eve > Charlie and Bob > Alice, which is greatest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Classify the sentiment: 'The system will be down for maintenance from 2-4 AM'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "If Alice > Charlie and Bob > Diana, which is greatest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Sentiment analysis: 'I loved it! Beautiful design and fantastic quality'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Create a reverse a string algorithm.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "What is the capital of Japan?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "What is the capital of water?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Who invented Python?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Fix the bug in:\ntransform",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Give a brief summary of: '2'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Find all emails in: 'John Smith (john@example.com) from New York'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "If Bob > Eve and Charlie > Alice, which is greatest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Extract names from: 'Contact support@company.com or call 555-123-4567'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Alice is before Eve. Charlie is after Diana. What is the order?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Extract entities: 'Meeting on January 15, 2024 at $500 per person'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Is this positive or negative: 'Excellent customer support, very helpful and efficient'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "Write code for validate an email address.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "Summarize in 1 sentences: 'Machine learning is transforming many industries. Python is a high-level programming language. Renewable energy sources like solar and wind are growing rapidly.'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "What is 36 / 60?",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Extract names from: 'John Smith (john@example.com) from New York'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "Summarize: '2'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Debug this:\ntransform",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "What is Germany?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Implement calculate fibonacci in Python.",
+    "task_type": "code_gen"
+  },
+  {
+    "prompt": "If Charlie > Bob and Diana > Alice, which is greatest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Extract names from: 'Meeting on January 15, 2024 at $500 per person'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "What is Germany?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Summarize in 1 sentences: 'Python is a high-level programming language. Machine learning is transforming many industries. The capital of France is Paris, known for its art and culture.'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Give a brief summary of: '3'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Average of 66, 31, 97.",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Fix the bug in:\nprocess_data",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Calculate 32 - 61.",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Fix this code:\ndef calculate():\n    pass\n",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Summarize in 1 sentences: 'Python is a high-level programming language. Machine learning is transforming many industries. The quick brown fox jumps over the lazy dog.'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "What is 92 / 40?",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Charlie is taller than Bob. Alice is taller than Eve. Who is tallest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Solve x + 21 = 58.",
+    "task_type": "math"
+  },
+  {
+    "prompt": "Sentiment analysis: 'The meeting is scheduled for 3 PM tomorrow'",
+    "task_type": "sentiment"
+  },
+  {
+    "prompt": "What's wrong with:\nparse_input",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "What is the capital of United Kingdom?",
+    "task_type": "factual"
+  },
+  {
+    "prompt": "Alice is taller than Eve. Bob is taller than Charlie. Who is tallest?",
+    "task_type": "logic"
+  },
+  {
+    "prompt": "Debug this:\nvalidate",
+    "task_type": "code_debug"
+  },
+  {
+    "prompt": "Give a brief summary of: '1'",
+    "task_type": "summarization"
+  },
+  {
+    "prompt": "Extract entities: 'Alice and Bob work at Google in Mountain View'",
+    "task_type": "ner"
+  },
+  {
+    "prompt": "If 8 items cost $128, how much do 8 cost?",
+    "task_type": "math"
+  }
+]
