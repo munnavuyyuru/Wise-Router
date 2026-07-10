@@ -40,10 +40,14 @@ QUESTION_PATTERNS = [
 def solve(prompt: str) -> tuple[Optional[str], Optional[float]]:
     lower = prompt.lower().strip()
 
-    if not any(kw in lower for kw in ("what", "who", "which", "where", "when", "how many", "how much", "define", "explain")):
+    if any(kw in lower for kw in ("sentiment", "summarize", "calculate", "solve", "write code", "debug", "extract", "fix")):
         return None, None
 
-    if any(kw in lower for kw in ("sentiment", "summarize", "calculate", "solve", "write code", "debug", "extract", "fix")):
+    for k, v in KNOWLEDGE_BASE.items():
+        if k in lower or lower in k:
+            return v, 0.92
+
+    if not any(kw in lower for kw in ("what", "who", "which", "where", "when", "how many", "how much", "define", "explain")):
         return None, None
 
     for pattern, group_idx in QUESTION_PATTERNS:
