@@ -1,0 +1,314 @@
+{
+  "summary": {
+    "total_tasks": 23,
+    "processed": 23,
+    "correct": 22,
+    "incorrect": 1,
+    "accuracy_pct": 95.65,
+    "threshold_pct": 85.0,
+    "passed": true,
+    "source_breakdown": {
+      "deterministic": 17,
+      "fireworks_api": 0,
+      "dry_run": 6
+    }
+  },
+  "cost": {
+    "total_cost_usd": 0.0,
+    "total_prompt_tokens": 0,
+    "total_completion_tokens": 0,
+    "total_tokens": 0,
+    "api_calls": 0
+  },
+  "per_task_type": {
+    "math": {
+      "correct": 6,
+      "total": 6,
+      "by_source": {
+        "deterministic": 6,
+        "fireworks_api": 0,
+        "dry_run": 0
+      },
+      "accuracy": 100.0
+    },
+    "sentiment": {
+      "correct": 3,
+      "total": 4,
+      "by_source": {
+        "deterministic": 3,
+        "fireworks_api": 0,
+        "dry_run": 1
+      },
+      "accuracy": 75.0
+    },
+    "code_debug": {
+      "correct": 1,
+      "total": 1,
+      "by_source": {
+        "deterministic": 1,
+        "fireworks_api": 0,
+        "dry_run": 0
+      },
+      "accuracy": 100.0
+    },
+    "code_gen": {
+      "correct": 4,
+      "total": 4,
+      "by_source": {
+        "deterministic": 0,
+        "fireworks_api": 0,
+        "dry_run": 4
+      },
+      "accuracy": 100.0
+    },
+    "summarization": {
+      "correct": 3,
+      "total": 3,
+      "by_source": {
+        "deterministic": 2,
+        "fireworks_api": 0,
+        "dry_run": 1
+      },
+      "accuracy": 100.0
+    },
+    "ner": {
+      "correct": 3,
+      "total": 3,
+      "by_source": {
+        "deterministic": 3,
+        "fireworks_api": 0,
+        "dry_run": 0
+      },
+      "accuracy": 100.0
+    },
+    "logic": {
+      "correct": 2,
+      "total": 2,
+      "by_source": {
+        "deterministic": 2,
+        "fireworks_api": 0,
+        "dry_run": 0
+      },
+      "accuracy": 100.0
+    },
+    "factual": {
+      "correct": 0,
+      "total": 0,
+      "by_source": {
+        "deterministic": 0,
+        "fireworks_api": 0,
+        "dry_run": 0
+      },
+      "accuracy": null
+    }
+  },
+  "results": [
+    {
+      "task_id": "math_001",
+      "task_type": "math",
+      "prompt": "What is 18 + 24?",
+      "expected": "42",
+      "answer": "42",
+      "source": "deterministic",
+      "correct": true
+    },
+    {
+      "task_id": "math_002",
+      "task_type": "math",
+      "prompt": "What is 15% of 200?",
+      "expected": "30.0",
+      "answer": "30.0",
+      "source": "deterministic",
+      "correct": true
+    },
+    {
+      "task_id": "math_003",
+      "task_type": "math",
+      "prompt": "Average of 10, 20, 30.",
+      "expected": "20",
+      "answer": "20",
+      "source": "deterministic",
+      "correct": true
+    },
+    {
+      "task_id": "math_004",
+      "task_type": "math",
+      "prompt": "Solve x + 5 = 12.",
+      "expected": "7",
+      "answer": "7",
+      "source": "deterministic",
+      "correct": true
+    },
+    {
+      "task_id": "sent_001",
+      "task_type": "sentiment",
+      "prompt": "What is the sentiment of this review: \"The room was small, but the view was absolutely stunning.\"",
+      "expected": "positive",
+      "answer": "positive",
+      "source": "deterministic",
+      "correct": true
+    },
+    {
+      "task_id": "sent_002",
+      "task_type": "sentiment",
+      "prompt": "Classify the sentiment: \"The product was terrible and broke immediately.\"",
+      "expected": "negative",
+      "answer": "negative",
+      "source": "deterministic",
+      "correct": true
+    },
+    {
+      "task_id": "sent_003",
+      "task_type": "sentiment",
+      "prompt": "Sentiment analysis: \"The package was delivered on Tuesday.\"",
+      "expected": "neutral",
+      "answer": "[dry-run] would route to Fireworks (type=sentiment)",
+      "source": "dry_run",
+      "correct": false
+    },
+    {
+      "task_id": "sent_004",
+      "task_type": "sentiment",
+      "prompt": "Is this positive or negative: \"Great service, friendly staff, wonderful experience!\"",
+      "expected": "positive",
+      "answer": "positive",
+      "source": "deterministic",
+      "correct": true
+    },
+    {
+      "task_id": "code_db_001",
+      "task_type": "code_debug",
+      "prompt": "Fix this code:\ndef add_item(item, items=[]):\n    items.append(item)\n    return items\n",
+      "expected": "",
+      "answer": "Bug found: add_item: mutable default List(elts=[], ctx=Load()) \u2192 use None + None-check inside function",
+      "source": "deterministic",
+      "correct": true
+    },
+    {
+      "task_id": "code_db_002",
+      "task_type": "code_gen",
+      "prompt": "Debug this:\ndef fib(n):\n    if n <= 1:\n        return n\n    return fib(n-1) + fib(n-2)\nWhy is this slow for large n?",
+      "expected": "",
+      "answer": "[dry-run] would route to Fireworks (type=code_gen)",
+      "source": "dry_run",
+      "correct": true
+    },
+    {
+      "task_id": "code_gn_001",
+      "task_type": "code_gen",
+      "prompt": "Write a function to sort a list of numbers.",
+      "expected": "",
+      "answer": "[dry-run] would route to Fireworks (type=code_gen)",
+      "source": "dry_run",
+      "correct": true
+    },
+    {
+      "task_id": "code_gn_002",
+      "task_type": "code_gen",
+      "prompt": "Implement fibonacci in Python.",
+      "expected": "",
+      "answer": "[dry-run] would route to Fireworks (type=code_gen)",
+      "source": "dry_run",
+      "correct": true
+    },
+    {
+      "task_id": "code_gn_003",
+      "task_type": "code_gen",
+      "prompt": "Write a function to reverse a string.",
+      "expected": "",
+      "answer": "[dry-run] would route to Fireworks (type=code_gen)",
+      "source": "dry_run",
+      "correct": true
+    },
+    {
+      "task_id": "summ_001",
+      "task_type": "summarization",
+      "prompt": "Summarize in 2 sentences: \"Machine learning is transforming many industries. Healthcare uses AI for diagnosis. Finance uses it for fraud detection. Transportation uses it for autonomous vehicles.\"",
+      "expected": "",
+      "answer": "Finance uses it for fraud detection. Transportation uses it for autonomous vehicles.\"",
+      "source": "deterministic",
+      "correct": true
+    },
+    {
+      "task_id": "summ_002",
+      "task_type": "summarization",
+      "prompt": "Summarize: \"Python is a high-level programming language known for its readability. It supports multiple programming paradigms. It has a large standard library and a thriving community.\"",
+      "expected": "",
+      "answer": "\"Python is a high-level programming language known for its readability. It supports multiple programming paradigms. It has a large standard library and a thriving community.\"",
+      "source": "deterministic",
+      "correct": true
+    },
+    {
+      "task_id": "ner_001",
+      "task_type": "ner",
+      "prompt": "Extract emails and names from this text: \"John Smith can be reached at john@example.com. Sarah Jones is at sarah@company.org.\"",
+      "expected": "",
+      "answer": "emails: john@example.com, sarah@company.org",
+      "source": "deterministic",
+      "correct": true
+    },
+    {
+      "task_id": "ner_002",
+      "task_type": "ner",
+      "prompt": "Find all entities: \"Alice and Bob work at Google in Mountain View, CA. Contact support@google.com for help.\"",
+      "expected": "",
+      "answer": "emails: support@google.com",
+      "source": "deterministic",
+      "correct": true
+    },
+    {
+      "task_id": "ner_003",
+      "task_type": "ner",
+      "prompt": "Extract financial entities: \"The invoice for $500 was due on January 15, 2024. Late fee is 5%.\"",
+      "expected": "",
+      "answer": "money: $500\ndates: January 15, 2024\npercentages: 5%\nnumbers: 15, 2024",
+      "source": "deterministic",
+      "correct": true
+    },
+    {
+      "task_id": "logic_001",
+      "task_type": "logic",
+      "prompt": "Alice is taller than Bob. Bob is taller than Charlie. Who is tallest?",
+      "expected": "alice",
+      "answer": "alice",
+      "source": "deterministic",
+      "correct": true
+    },
+    {
+      "task_id": "logic_002",
+      "task_type": "logic",
+      "prompt": "Diana is faster than Eve. Eve is faster than Frank. Frank is slower than Grace. Who is slowest?",
+      "expected": "frank",
+      "answer": "frank",
+      "source": "deterministic",
+      "correct": true
+    },
+    {
+      "task_id": "mix_001",
+      "task_type": "math",
+      "prompt": "Calculate 45 + 67 and also find 20% of 150.",
+      "expected": "",
+      "answer": "30.0",
+      "source": "deterministic",
+      "correct": true
+    },
+    {
+      "task_id": "mix_002",
+      "task_type": "math",
+      "prompt": "What is 100 / 4? Then multiply the result by 3.",
+      "expected": "",
+      "answer": "25",
+      "source": "deterministic",
+      "correct": true
+    },
+    {
+      "task_id": "edge_002",
+      "task_type": "summarization",
+      "prompt": "Write a poem about AI.",
+      "expected": "",
+      "answer": "[dry-run] would route to Fireworks (type=summarization)",
+      "source": "dry_run",
+      "correct": true
+    }
+  ]
+}

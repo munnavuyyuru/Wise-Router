@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.git/
+*.md
+.venv/
+venv/
+.env
+input/
+output/
+token_usage.json
+eval_report.json
+eval_report_p1.json

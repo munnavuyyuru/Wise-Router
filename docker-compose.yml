@@ -1,0 +1,14 @@
+services:
+  routellm:
+    build: .
+    ports:
+      - "8000:8000"
+      - "8501:8501"
+    environment:
+      - FIREWORKS_API_KEY=${FIREWORKS_API_KEY:-}
+      - ALLOWED_MODELS=${ALLOWED_MODELS:-}
+      - CLASSIFIER_MODEL_PATH=/app/data/task_classifier.pkl
+    volumes:
+      - ./input:/input
+      - ./output:/output
+    restart: unless-stopped
