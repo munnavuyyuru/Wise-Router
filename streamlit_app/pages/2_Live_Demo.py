@@ -71,7 +71,7 @@ if run_clicked:
     else:
         with st.spinner(" Routing via backend API..."):
             try:
-                result = api_client.route_single(prompt, dry_run=True)
+                result = api_client.route_single(prompt, dry_run=False)
                 st.session_state["demo_result"] = result
             except Exception as e:
                 st.error(f"Backend API error: {e}")

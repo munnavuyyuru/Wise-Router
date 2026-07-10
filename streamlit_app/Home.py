@@ -47,7 +47,7 @@ with col1:
             with open(SAMPLE_PATH, "r") as f:
                 tasks = json.load(f)
             try:
-                result = api_client.evaluate(tasks, dry_run=True)
+                result = api_client.evaluate(tasks, dry_run=False)
                 st.session_state["last_eval"] = result
                 st.session_state["has_eval"] = True
             except Exception as e:
