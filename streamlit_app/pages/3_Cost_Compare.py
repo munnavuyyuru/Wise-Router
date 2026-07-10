@@ -39,7 +39,7 @@ BASELINE_MODELS = {
 if "cost_result" not in st.session_state:
     st.session_state["cost_result"] = None
 
-SAMPLE_PATH = Path(__file__).resolve().parent.parent.parent / "tests" / "fixtures" / "tasks_track1_sample.json"
+SAMPLE_PATH = Path(__file__).resolve().parent.parent.parent / "data" / "sample_tasks.json"
 
 uploaded = st.file_uploader("Upload tasks JSON (same format as Evaluate)", type=["json"], key="cost_upload")
 

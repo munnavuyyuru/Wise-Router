@@ -34,7 +34,7 @@ st.markdown("""
 st.title(" RoutellM")
 st.markdown("**Model Router / Cost Optimizer** — automatically routes each prompt to the cheapest, best-suited solver or LLM.")
 
-SAMPLE_PATH = Path(__file__).resolve().parent.parent / "tests" / "fixtures" / "tasks_track1_sample.json"
+SAMPLE_PATH = Path(__file__).resolve().parent.parent / "data" / "sample_tasks.json"
 
 col1, col2 = st.columns([2, 1])
 

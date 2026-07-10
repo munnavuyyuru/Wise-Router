@@ -34,7 +34,7 @@ st.markdown("Upload a JSON file of tasks and let RoutellM classify, route, and s
 if "eval_result" not in st.session_state:
     st.session_state["eval_result"] = None
 
-SAMPLE_PATH = Path(__file__).resolve().parent.parent.parent / "tests" / "fixtures" / "tasks_track1_sample.json"
+SAMPLE_PATH = Path(__file__).resolve().parent.parent.parent / "data" / "sample_tasks.json"
 
 uploaded = st.file_uploader(
     "Upload tasks JSON (array of `{task_id, prompt, expected_answer?}`)",
