@@ -13,7 +13,7 @@ from pydantic import BaseModel
 from app.classifier.task_classifier import TaskClassifier
 from app.config import Config
 from app.llm.fireworks_client import FireworksClient, TokenTracker, estimate_cost
-from app.router import try_deterministic
+from app.router import try_deterministic, SOLVERS
 from app.llm import model_selector
 
 app = FastAPI(title="RoutellM API", version="1.0.0")
@@ -153,6 +153,10 @@ def route_single(req: RouteRequest):
                 except Exception:
                     answer = ""
 
+    solver_fn = SOLVERS.get(task_type)
+    solver_name = solver_fn.__name__ if solver_fn else None
+    passed_threshold = confidence >= threshold if solver_fn else False
+
     cost = 0.0
     tokens = 0
     api_after = len(_tracker._records)
@@ -165,6 +169,8 @@ def route_single(req: RouteRequest):
         "task_type": task_type,
         "confidence": round(confidence, 3),
         "threshold": threshold,
+        "solver_name": solver_name,
+        "passed_threshold": passed_threshold,
         "source": source,
         "model_used": model_used,
         "answer": answer,
