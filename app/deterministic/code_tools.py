@@ -85,7 +85,7 @@ def _detect_recursion_base(code: str) -> Optional[str]:
                     isinstance(child, ast.If)
                     and any(
                         isinstance(s, ast.Return)
-                        and not isinstance(s.value, ast.Call) if s.value else True
+                        and (s.value is None or not isinstance(s.value, ast.Call))
                         for s in ast.walk(child)
                     )
                     for child in ast.walk(node)
