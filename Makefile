@@ -1,4 +1,4 @@
-.PHONY: install test eval-local run-sample docker-build docker-run clean
+.PHONY: install test eval-local run-sample docker-build docker-run docker-compose-up clean
 
 install:
 	pip install -r requirements.txt
@@ -7,7 +7,7 @@ test:
 	python -m pytest tests/ -v --tb=short
 
 eval-local:
-	python scripts/eval_local.py
+	python scripts/eval_local.py --dry-run
 
 run-sample:
 	python -m app.main --input tests/fixtures/tasks_track1_sample.json --output /tmp/results.json
@@ -23,6 +23,12 @@ docker-run:
 		-v $(PWD)/input:/input \
 		-v $(PWD)/output:/output \
 		routellm
+
+docker-compose-up:
+	docker compose up -d
+
+docker-compose-down:
+	docker compose down
 
 clean:
 	rm -rf __pycache__ .pytest_cache

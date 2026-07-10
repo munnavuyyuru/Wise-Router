@@ -1,3 +1,14 @@
+# RoutellM — Token-Efficient Routing Agent
+# Start: docker compose up -d
+# Frontend: http://localhost:8501
+# Backend API: http://localhost:8000/api/health
+#
+# With Fireworks API:
+#   FIREWORKS_API_KEY=your_key docker compose up -d
+#
+# File-based mode (no web UI):
+#   docker run --rm -v ./input:/input -v ./output:/output routellm
+
 services:
   routellm:
     build: .
