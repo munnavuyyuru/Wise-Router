@@ -152,6 +152,10 @@ def route_single(req: RouteRequest):
                         model_used = _tracker._records[-1].model
                 except Exception:
                     answer = ""
+                    source = API
+            else:
+                answer = f"[dry-run] no models available for (type={task_type})"
+                source = DRY
 
     solver_fn = SOLVERS.get(task_type)
     solver_name = solver_fn.__name__ if solver_fn else None
