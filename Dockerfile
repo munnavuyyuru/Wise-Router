@@ -2,15 +2,12 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    bash \
-    build-essential \
-    gcc \
-    g++ \
-    && rm -rf /var/lib/apt/lists/*
-
 COPY requirements.txt .
-RUN pip install --no-cache-dir --timeout 120 -r requirements.txt
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential gcc g++ \
+    && pip install --no-cache-dir --timeout 120 -r requirements.txt \
+    && apt-get purge -y --auto-remove build-essential gcc g++ \
+    && rm -rf /var/lib/apt/lists/* /root/.cache/pip
 
 COPY .streamlit/ .streamlit/
 COPY app/ app/
